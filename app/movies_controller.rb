@@ -1,7 +1,7 @@
 
 def can_be_instantiated_and_then_saved
-  Movie.new
-  "This is a title."
+  Movie.new(title)
+  title = "This is a title."
   movie.save 
 end
 
